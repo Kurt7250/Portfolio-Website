@@ -3,7 +3,7 @@
 	}
 
 .body {
-    background-color: skyblue;
+    background-color: black;
     background-image: url(DigitalLoop.gif);
     background-size: cover;
     background-repeat: no-repeat;
@@ -154,4 +154,5 @@
 .skill-card:hover {
 	transform: scale(1.08);
 	box-shadow: 0 0 15px rgba(135, 206, 235, 0.5);
+
 	}
