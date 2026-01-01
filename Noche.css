@@ -1,0 +1,157 @@
+#color1 {
+    color: skyblue;
+	}
+
+.body {
+    background-color: skyblue;
+    background-image: url(DigitalLoop.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	}
+
+.homealign-style1 {
+    font-family: "Roboto Slab", serif;
+    color: skyblue;
+    margin: 10px;
+	}
+
+.align1,
+.portfolioalign {
+    font-family: "Roboto Slab", serif;
+    margin: 10px;
+    color: skyblue;
+	}
+
+.textstylish {
+    font-family: "Roboto Slab", serif;
+    color: skyblue;
+	}
+
+.image-cool {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid skyblue;
+	}
+
+.footer {
+    text-align: left;
+    padding: 20px;
+    color: skyblue;
+	}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+	}
+
+.holo-btn {
+    position: relative;
+    background: #111;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+	}
+
+.holo-btn a {
+    color: skyblue;
+    text-decoration: none;
+    font-family: "Roboto Slab", serif;
+    position: relative;
+    z-index: 2;
+	}
+
+.holo-btn::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        0deg,
+        transparent,
+        transparent 30%,
+        rgba(135, 206, 235, 0.4)
+    );
+    transform: rotate(-45deg);
+    opacity: 0;
+    transition: 0.5s ease;
+	}
+
+.holo-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(135, 206, 235, 0.6);
+	}
+
+.holo-btn:hover::before {
+    opacity: 1;
+    transform: rotate(-45deg) translateY(100%);
+	}
+
+.projects-container {
+	display: flex;
+	justify-content: left;
+	gap: 25px;
+	margin-top: 20px;
+	flex-wrap: wrap;
+	}
+
+
+.project-card {
+	width: 260px;
+	height: 180px;
+	background: #111;
+	color: skyblue;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: "Roboto Slab", serif;
+	transition: transform 0.4s ease, box-shadow 0.4s ease;
+	}
+
+
+.project-card span {
+	font-size: 0.9rem;
+	opacity: 0.8;
+	}
+
+
+.project-card.featured {
+	transform: scale(1.08);
+	}
+
+
+.project-card:hover {
+	transform: scale(1.12);
+	box-shadow: 0 0 25px rgba(135, 206, 235, 0.6);
+	}
+	
+.skills-container {
+	display: flex;
+	gap: 15px;
+	flex-wrap: wrap;
+	margin-top: 15px;
+	}
+
+
+.skill-card {
+	background: #111;
+	color: skyblue;
+	padding: 15px 20px;
+	border-radius: 15px;
+	font-family: "Roboto Slab", serif;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	}
+
+
+.skill-card:hover {
+	transform: scale(1.08);
+	box-shadow: 0 0 15px rgba(135, 206, 235, 0.5);
+	}
